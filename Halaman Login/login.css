@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  height: 100vh;
+  background-color: #3A88DA;
+  color: black;
+}
+
+.btnGoogle{
+  width: 100%;
+  margin-top: -20px;
+  height: 40px;
+  padding: 5px 0;
+  background-color: white;
+  border: 2px solid #3A88DA;
+  font-size: 18px;
+  color: #000000;
+  border-radius: 20px;
+}
+
+.btnFacebook{
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  padding: 5px 0;
+  border: none;
+  background-color: white;
+  border: 2px solid #3A88DA;
+  font-size: 18px;
+  color: #000000;
+  border-radius: 20px;
+}
+
+
+
+p {
+
+font-family: 'Open Sans', sans-serif;
+padding: 10px;
+text-align: center;
+}
+
+h1 {
+text-align: center;
+padding-left: 100px;
+padding-bottom: 20px;
+margin-top: 40px;
+}
+
+a {
+
+font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.form{
+
+  padding: 10px 25px;
+  width: 300px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.form h1{
+  text-align: start;
+  margin-bottom: 30px;
+
+
+}
+.form label{
+  text-align: left;
+  color: #000000;
+}
+.form form input{
+  width: 100%;
+  height: 20px;
+  padding: 5px 0;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 2px solid #3A88DA;
+  color: #fff;
+  font-size: 20px;
+}
+
+.btnLogin{
+  width: 100%;
+  height: 40px;
+  padding: 5px 0;
+  border: none;
+  background-color:#3A88DA;
+  font-size: 18px;
+  color: #fafafa;
+  border-radius: 20px;
+}
+
+p a{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+  height: 100vh;
+    background-image: url(https://th.bing.com/th/id/OIP.03gKHxmS6tqkJU3_fRRIaQHaEo?w=306&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+.container{
+ 
+  margin-top: 200px;
+  margin-left: 10%;
+  
+}
+
+.container h1{
+  margin-left: 100px;
+  background-color: transparent;
+  height: 30%;
+  width: 12%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.wrapper{
+  
+  position: absolute;
+  background-color: transparent;
+  height: 30%;
+  width: 30%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form{
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+
+
+.submit{
+  margin-left: 20%;
+  width: 50%;
+  font-size: 20px;
+  background-color: rgb(170, 170, 198);
+  opacity: 80%;
+  transition: 0.3s;
+}
+
+
+
+ */
