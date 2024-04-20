@@ -5,13 +5,14 @@
 
 /* NAVBAR */
 nav{
-
+  width: 100vh;
   font-size: 60px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 37px;
-
+  
+  
 }
 ul{
   list-style: none;
@@ -21,10 +22,6 @@ ul{
 ul li{
   display: inline-block;
   position: relative;
-}
-
-.text-Nav{
-  margin-left: 700px;
 }
 
 ul li a{
@@ -38,8 +35,6 @@ ul li a{
 
 ul li ul.dropdown li{
   display: block;
-  background-color: #2074CB;
-  width: 200px;
 }
 
 ul li ul.dropdown{

@@ -1,12 +1,11 @@
 *{
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    
 }
 body{
-  height: 100vh;
   background-color: #3A88DA;
-  color: black;
+    
 }
 
 
@@ -14,7 +13,7 @@ body{
   a {
     color: var(--color-primary);
     text-decoration: none;
-
+    font-family: var(--font-primary);
   }
   
   a:hover {
@@ -22,7 +21,15 @@ body{
     text-decoration: none;
   }
   
- 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-primary);
+  }
+
   
   
 /*--------------------------------------------------------------
@@ -327,208 +334,78 @@ body{
 
 }
 
-
- 
-
-.container{
-  display: flex;
-  justify-content: center;
-  margin-top: 7%;
-
-}
-
-.btnGoogle{
-  width: 380px;
-  margin-top: -20px;
-  height: 40px;
-  padding: 5px 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: white;
-  border: 2px solid #3A88DA;
-  font-size: 18px;
-  color: #000000;
-  border-radius: 20px;
-}
-
-.btnFacebook{
-  margin-top: 10px;
-  width: 380px;
-  height: 40px;
-  padding: 5px 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  border: none;
-  background-color: white;
-  border: 2px solid #3A88DA;
-  font-size: 18px;
-  color: #000000;
-  border-radius: 20px;
-}
-
-.logo-google{
-  position: relative;
-  width: 20px;
-  height: 20px;
-  right: 15px;
-  top: -2px;
-}
-
-.logo-facebook{
-  position: relative;
-  width: 20px;
-  height: 20px;
-  right: 15px;
-  top: -2px;
   
+.table{
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 200px;
+    background-color: #F6F5FF;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 5px  5px 5px;
 }
 
-
-
-
-
-
-
-.form{
-
-  padding: 30px 30px;
-  height: 550px;
-  border-radius: 40px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  margin-left: 200px;
+.table-row{
+    font-family: "poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
-  margin-right: 100px;
-
+  color: black;
 }
 
-.form h1 {
-text-align: center;
-padding-left: 100px;
-padding-bottom: 20px;
-margin-top: 20px;
-font-family: "Poppins", sans-serif;
-  font-weight: 600;
+tbody{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
-  margin-right: 100px;
 }
 
-
-
-
-
-form .field-email{
-  position: relative;
-  left: 5px;
-  top: 1px;
-  width: 380px;
-  height: 38px;
+h2{
+  font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
 }
 
-
-
-form .field-kataSandi{
-  position: relative;
-  left: 5px;
-  top: 1px;
-  width: 380px;
-  height: 38px;
+.btnTambah button{
+    position: relative;
+    top: -10px;
+    background-color: #B7D3F1;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 7px;
+    
 }
 
-.form form input{
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-  border-radius: 30px;
-  background-color: transparent;
-  border: 2px solid #3A88DA;
-  font-size: 20px;
-  padding-left: 20px;
+.btnTambah button a{
   
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
 }
 
-.form form label{
-  margin-left: 30px;
-  margin-top: 3px;
-}
-
-
-
-.checkbox{
-  margin-left: 10px;
-}
-
-.checkbox input{
-  position: relative;
-  top: 2px;
-}
-.checkbox label{
-  position: relative;
- right: 50px;
-}
-
-.btnLogin{
-  width: 400px;
-  height: 40px;
-  padding: 5px 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: -10px;
-  border: none;
-  background-color:#3A88DA;
-  font-size: 18px;
-  color: #fafafa;
-  border-radius: 20px;
-}
-
-.gambar{
-  margin-right: 10px;
-  margin-left: 78px;
- 
-  
+figure{
+    position: relative;
+    width: 430px;
+    height: 430px;
+    left: 1043px;
+    top: -170px;
 
 }
 
-.gambar h1{
-  color: white;
-  font-weight: 600;
-  font-size: 38px;
 
+
+
+.btnTambah button:hover{
+    background-color: aliceblue;
+    transition: 10ms;
 }
-.gambar img{
-  margin-top: -30px;
-  margin-left: -30px;
-  width: 550px;
-}
-
-
-p {
-  padding: 10px;
-  text-align: center;
-  }
-
-p a{
-  text-decoration-line: underline;
-}
-
-p a:hover{
-  color: blue;
-}
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
